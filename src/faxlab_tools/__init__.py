@@ -1,4 +1,5 @@
 # Expose submodules for dot notation
+from . import academic
 from . import core
 from . import figures
 from . import tables
@@ -9,4 +10,4 @@ from . import utils
 from .__version__ import __version__
 from .logger import log_control_center
 
-__all__ = ["core", "figures", "tables", "transcriptomics", "io", "utils"]
+__all__ = ["academic", "core", "figures", "tables", "transcriptomics", "io", "utils"]
